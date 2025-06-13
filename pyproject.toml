@@ -1,0 +1,25 @@
+[project]
+name = "pffp25"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jose Sanchez",email = "1542075+jfsanchez@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "jupyter-book (>=1.0.4.post1,<2.0.0)",
+    "ghp-import (>=2.1.0,<3.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "polars (>=1.30.0,<2.0.0)",
+    "altair (>=5.5.0,<6.0.0)",
+    "plotly (>=6.1.2,<7.0.0)",
+    "vega-datasets (>=0.9.0,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
